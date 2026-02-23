@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#DC143C;
+    background-color:#778873;
     min-height: 100vh;
     width: 100%;
     margin: 0;
@@ -18,7 +18,7 @@ body{
 
 .container{
     padding: min(100px, 5vh);
-    background-color: #30364F;
+    background-color: #A1BC98;
     text-align: center;
     margin: 5vh auto;
     width: min(80%, 800px);
@@ -28,7 +28,7 @@ body{
 
 .minisquare{
     margin: 0;
-    background-color: #ACBAC4;
+    background-color: #D2DCB6;
     padding: min(90px, 5vh);
     border-radius: 15px;
     box-sizing: border-box;
@@ -41,8 +41,8 @@ body{
 input{
     padding: min(30px, 3vh) min(30px, 5vw);
     font-size: min(40px, 6vw);
-    background-color: #ACBAC4;
-    color: #FFF0C4;
+    background-color: #F1F3E0;
+    color: #778873;
     border: none;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -52,8 +52,8 @@ input{
 
 
 #submit{
-    background-color: #ACBAC4;
-    color: #FFF0C4;
+    background-color: #F1F3E0;
+    color: #778873;
     padding: min(10px, 2vh) min(20px, 3vw);
     border: none;
     border-bottom-right-radius: 15px;
@@ -63,7 +63,7 @@ input{
 }
 
 #submit:hover{
-    background-color: #FFF0C4;
-    color: #ACBAC4;
+    background-color: #778873;
+    color: #F1F3E0;
     cursor: pointer;
 }
