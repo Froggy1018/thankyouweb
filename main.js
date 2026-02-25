@@ -17,6 +17,11 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = 'naminami.html';
             return;
         }
+
+        if (valLower === 'gs19th') {
+            window.location.href = 'class.html';
+            return;
+        }
         window.location.href = 'uhoh.html';
     }
 
