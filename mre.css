@@ -117,3 +117,43 @@ button{
   --confetti-color: #ff69b4;
   --fall-duration: 6s;
 }
+
+#square{
+    border: #30364F solid 2px;
+    background-color: #3F516B;
+    width: min(500px, 90vw);
+    height: min(500px, 90vw);
+    padding: min(20px, 3vw);
+    margin: 20px auto;
+    align-content: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3 ease-out;
+    font-size: min(25px, 4vw);
+    box-sizing: border-box;
+
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+
+#notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: min(20px, 3vw);
+    color: #F0F0DB;
+}
+
+#messages{
+    margin-top: min(20px, 3vh);
+    padding: min(15px, 2vw);
+    box-sizing: border-box;
+
+    h1{
+        font-size: min(60px, 8vw);
+        text-align: center;
+        line-height:1.2;
+        margin-bottom: min(20px, 3vh);
+    }
+}
